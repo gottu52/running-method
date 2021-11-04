@@ -140,6 +140,12 @@ span.material-icons {
     }
 }
 
+@media (max-width:500px) {
+    #modal {
+        width: 400px;
+    }
+}
+
 
 /*トップ*/
 div.top-container {
@@ -157,7 +163,7 @@ div.top-container > h1 {
     font-size:60px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
     div.top-container > h1 {
         font-size:40px;
     }
@@ -220,7 +226,7 @@ a {
     color:white;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
     .main-item > img {
         width: 60px;
         height: 90px;
