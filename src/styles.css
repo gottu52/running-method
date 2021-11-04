@@ -184,12 +184,12 @@ div.top-container > h1 {
 }
 
 .main-item.right {
-    transform:translateX(-100px);
+    transform:translateX(-20px);
     opacity:0;
 }
 
 .main-item.left {
-    transform:translateX(100px);
+    transform:translateX(20px);
     opacity:0;
 }
 
