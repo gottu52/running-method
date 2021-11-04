@@ -226,10 +226,13 @@ a {
     color:white;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     .main-item > img {
         width: 60px;
         height: 90px;
+    }
+    .main-item > a {
+        font-size: 30px;
     }
 }
 
