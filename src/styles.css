@@ -1,6 +1,7 @@
 /* ヘッダー */
 body {
     margin:0;
+    width:100%;
 }
 
 .header {
@@ -241,6 +242,11 @@ a {
 .text {
     margin:80px 120px 0 120px;
     line-height:40px;
+}
+@media (max-width:500px) {
+    .text {
+        margin: 80px 10px 0 10px;
+    }
 }
 
 .explanation {
