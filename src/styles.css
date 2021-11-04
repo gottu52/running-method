@@ -51,6 +51,14 @@ div.icon {
     float:right;
 }
 
+@media (max-width: 1000px) {
+    img.logo {
+        height: 50px;
+        width: 200px;
+        margin-top:25px;
+    }
+}
+
 /* モーダル */
 span.material-icons {
     float:right;
@@ -120,8 +128,6 @@ span.material-icons {
     background:gray;
 }
 
-
-/* メディアクエリ */
 @media (max-width:820px) {
     span.material-icons {
         display:block;
@@ -149,6 +155,12 @@ div.top-container > h1 {
     padding-top:100px;
     margin-left:24px;
     font-size:60px;
+}
+
+@media (max-width: 1000px) {
+    div.top-container > h1 {
+        font-size:40px;
+    }
 }
 
 
@@ -206,6 +218,13 @@ a {
     padding:40px 0;
     background:rgb(84, 83, 83);
     color:white;
+}
+
+@media (max-width: 1000px) {
+    .main-item > img {
+        width: 60px;
+        height: 90px;
+    }
 }
 
 
